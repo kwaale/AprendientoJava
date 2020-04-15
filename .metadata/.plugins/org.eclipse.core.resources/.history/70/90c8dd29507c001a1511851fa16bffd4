@@ -1,0 +1,23 @@
+'''
+Created on 9 abr. 2020
+  
+@author: Knut Waale
+
+'''
+
+def cargarDatos():
+    agenda = {}
+    lista = []
+    continua = "s"
+    i = 0
+    while continua == "s":
+        fecha = input("Ingresa la fecha en formato DD/MM/AA: ")
+        hora = input("Ingresa la hora en formato hh:mm: ")
+        actividad = input("Ingresa la actividad: ")
+        lista.append((hora, actividad))
+        agenda[fecha] = lista[i]
+        i += 1
+        continua = input("Desea continuar? [s/n]: ")
+      
+    return agenda
+print(cargarDatos())

@@ -1,0 +1,14 @@
+package vectores;
+
+public class VectorValorTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		VectorValor vec = new VectorValor();
+		vec.carga();
+		vec.suma();
+		vec.sumaSi36();
+		vec.sumaSi50();
+	}
+
+}

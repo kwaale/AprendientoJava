@@ -1,0 +1,40 @@
+package claseString1;
+
+import java.util.Scanner;
+
+public class Empleado {
+	public static void main(String[] args) {
+		Scanner s =  new Scanner(System.in);
+		String card1;
+		String card2;
+		
+		System.out.println("Ingrese la primera cadena: ");
+		card1 = s.next();
+		System.out.println("Ingrese la segunda cadena: ");
+		card2 = s.next();
+		
+		//Igualdad de Objetos
+		if (card1.equals(card2)==true){
+			System.out.println("equals" + card1 + " es exactamente igual a " + card2);
+		}else{
+			System.out.println("equals" + card1 + " no es exactamente igual a " + card2);
+		}
+		//Igualdad sin tomar en cuenta case sencitive
+		if(card1.equalsIgnoreCase(card2)==true){
+			System.out.println("equalsIgnoreCase" + card1 + " es igual sin tomar en cuenta mayusculas, a " + card2);
+		}else{
+			System.out.println("equalsIgnoreCase" + card1 + " no es igual a " + card2);
+		}
+		//metrica de la palabra
+		if(card1.compareTo(card2)==0){
+			System.out.println("compareTo" + card1 + " es exactamente igual a " + card2);
+		}else{
+			if(card1.compareTo(card2)>0){
+				System.out.println("compareTo" + card1 + " es mayor alfabeticamente que " + card2);
+			}else{
+				System.out.println("compareTo" + card2 + " es mayor alfabeticamente que " + card1);
+			}
+		}
+		
+	}
+}

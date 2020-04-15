@@ -1,0 +1,19 @@
+package vectores;
+
+import java.util.Scanner;
+
+public class VectorOrdenado10 {
+	private Scanner s;
+	private int []vect;
+	
+	public void carga(){
+		s = new Scanner(System.in);
+		vect = new int[10];
+		System.out.println("Introduce 10 Valores: ");
+		for(int i =0; i < 19; i++){
+			System.out.print("Introduce Valor: ");
+			vect[i] = s.nextInt();
+			
+		}
+	}
+}

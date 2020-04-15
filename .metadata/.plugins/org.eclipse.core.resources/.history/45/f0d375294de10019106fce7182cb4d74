@@ -1,0 +1,13 @@
+package vectores;
+
+public class AlturaTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Altura alt = new Altura();
+		alt.carga();
+		alt.calcularPromedio();
+		alt.altosBajos();
+	}
+
+}

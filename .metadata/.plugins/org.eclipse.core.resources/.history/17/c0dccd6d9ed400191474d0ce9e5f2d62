@@ -1,0 +1,43 @@
+package bucles;
+
+import java.util.Scanner;
+
+public class Suma100Num {
+
+	public static void main(String[] args) {
+		//Escribe un programa que obtenga los números enteros comprendidos
+		//entre dos números introducidos por teclado y validados como distintos,
+		//el programa debe empezar por el menor de los enteros introducidos
+		//e ir incrementando de 7 en 7.
+		
+		Scanner s = new Scanner(System.in);
+		System.out.print("Introduzca un numero entero: ");
+		int a = s.nextInt();
+		System.out.print("Introduzca otro numero entero: ");
+		int b = s.nextInt();
+		int men;
+		int may;
+		
+		if(a!=b){
+			if(a<b){
+				men = a;
+				may = b;
+			}else{
+				{
+					men = b;
+					may = a;
+				}
+			}
+			System.out.println("Mayor " + may);
+			System.out.println("Menor " + men);
+			//Entre el menor y mayor ir de 7 en 7
+			for(int i = 0; i < may; i++){
+				int val = men+7;
+				System.out.println(val);
+				
+			}
+		}
+		s.close();
+	}
+
+}

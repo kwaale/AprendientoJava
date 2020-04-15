@@ -1,0 +1,43 @@
+'''
+Created on 9 abr. 2020
+  
+@author: Knut Waale
+
+'''
+
+def cargarDatos():
+    agenda = {}
+    lista = []
+    continua1 = "s"
+    continua2 = "s"
+    while continua1 == "s":
+        fecha = input("Ingresa la fecha en formato DD/MM/AA: ")
+        continua2 = input("Desea continuar? [s/n]: ")
+        while continua2 == "s":
+            hora = input("Ingresa la hora en formato hh:mm: ")
+            actividad = input("Ingresa la actividad: ")
+            lista.append((hora, actividad))
+            
+            continua2 = input("Desea continuar con la misma fecha? [s/n]: ")
+        
+        continua1 = input("Desea continuar? [s/n]: ")
+        agenda[fecha] = lista
+        
+    return agenda
+def imprimirAgenda(agenda):
+    for fecha in agenda:
+        print("Para la fecha: ", fecha)
+        for hora, actividad in agenda:
+            print("A las ", hora, " se ", actividad)
+
+def consultaFechaAgenda(agenda):
+    fecha = input("Fecha de consulta: ")
+    if fecha in agenda:
+        for hora,actividad in agenda[fecha]:
+            print("A las ", hora, " se ", actividad)
+    else:
+        print("No hay resultado para la consulta")
+        
+print(cargarDatos())
+agendaTrabajo = cargarDatos()
+print(agendaTrabajo)

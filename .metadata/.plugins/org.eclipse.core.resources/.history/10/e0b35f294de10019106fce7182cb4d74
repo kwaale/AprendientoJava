@@ -1,0 +1,12 @@
+package vectores;
+
+public class SueldosTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		SueldoTurnos tur = new SueldoTurnos();
+		tur.carga();
+		tur.calculoGastos();
+	}
+
+}

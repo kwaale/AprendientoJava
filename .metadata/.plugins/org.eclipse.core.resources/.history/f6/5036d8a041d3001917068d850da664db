@@ -1,0 +1,18 @@
+package objetos;
+
+public class TestCuadrante {
+
+	public static void main(String[] args) {
+		//Desarrollar un programa que cargue los lados de un triángulo e 
+		//implemente los siguientes métodos:
+		//inicializar los atributos
+		//imprimir el valor del lado mayor
+		//Otro método que muestre si es equilátero o no.
+		Triangulo triangulo1;
+		triangulo1 = new Triangulo();
+		triangulo1.inicializar();
+		triangulo1.ladoMayor();
+		triangulo1.equilatero();
+	}
+
+}

@@ -1,0 +1,45 @@
+package bucles;
+
+import java.util.Scanner;
+
+public class CajaF4cifras {
+
+	public static void main(String[] args) {
+		/*Realiza el control de acceso a una caja fuerte.
+		La combinación será un número de 4cifras.
+		El programa nos pedirá la combinación para abrirla.
+		Sino acertamos,se nos mostrará el mensaje “Losiento,esanoeslacombinación”
+		y si acertamos se nos dirá “La caja fuerte se ha abierto satisfactoriamente”.
+		Tendremos cuatro oportunidades para abrir la caja fuerte.*/
+		
+		
+			Scanner s = new Scanner(System.in);
+			System.out.println("Clave");
+			int clave = s.next();
+			int combinacion = 2424;
+			int x = 0;
+
+			if (clave == combinacion) {
+				System.out.println("La clave que introdujo es correcta.");
+			} else {
+				System.out.println("La clave que introdujo no es correcta.");
+				System.out.println("Intente de nuevo.");
+				// Repetiion 4 veces.
+				do {
+					clave = s.next();
+					x++;
+					if (clave == combinacion) {
+						System.out.println("La clave que introdujo es correcta.");
+					} else {
+						System.out.println("La clave que introdujo no es correcta.");
+						System.out.println("Intente de nuevo.");
+					}
+				} while (x < 3);
+				System.out.println("Ha superado los '4' intentos");
+
+			}		}
+	}
+
+	
+
+

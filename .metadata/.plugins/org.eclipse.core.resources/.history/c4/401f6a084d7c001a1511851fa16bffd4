@@ -1,0 +1,21 @@
+'''
+Created on 9 abr. 2020
+  
+@author: Knut Waale
+
+'''
+from math import prod
+def almacenar():
+    productos = {}
+    for i in range(5):
+        nombre = input("Nombre Producto: ")
+        precio = int(input("Precio: ")) 
+        productos[nombre] = precio
+    return productos
+
+def productosMayores10(diccionario):
+    for nombre in diccionario:
+        if diccionario[nombre] > 10:
+            print(nombre, diccionario[nombre])
+
+productosMayores10(almacenar())

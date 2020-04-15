@@ -1,0 +1,15 @@
+'''
+Created on 9 abr. 2020
+  
+@author: Knut Waale
+
+'''
+def almacenar():
+    productos = {}
+    for i in range(5):
+        nombre = input("Nombre Producto: ")
+        precio = int(input("Precio: ")
+        productos[nombre] = precio
+    return productos
+
+almacenar()

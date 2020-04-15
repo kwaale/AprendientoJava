@@ -1,0 +1,30 @@
+package vectores;
+
+import java.util.Scanner;
+
+public class Sueldos {
+
+	// Se desea guardar los sueldos de 5 operarios.
+	// Según lo conocido deberíamos definir 5 variables si queremos
+	// tener en un cierto momento los 5 sueldos almacenados en memoria.
+	// Empleando un vector solo se requiere definir un único nombre
+	// y accedemos a cada elemento por medio del subíndice.
+	private Scanner s;
+	private int[] sueldos;
+
+	public void cargar() {
+		s = new Scanner(System.in);
+		sueldos = new int [5];
+		for (int f = 0; f < 5; f++) {
+			System.out.println("Ingrese los sueldos: ");
+			sueldos[f] = s.nextInt();
+		}
+	}
+
+	public void imprimir() {
+		for (int f = 0; f < 5; f++) {
+			System.out.println(sueldos[f]);
+		}
+	}
+
+}

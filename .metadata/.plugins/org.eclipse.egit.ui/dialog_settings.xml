@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="CommitDialog.showUntracked" value="true"/>
+	<list key="CommitDialog.authorValues">
+		<item value="Knut Waale &lt;Knut Waale@Knut.mshome.net&gt;"/>
+		<item value="Knut Waale &lt;Knut Waale@192.168.1.46&gt;"/>
+		<item value="Knut Waale &lt;Knut Waale@Knut&gt;"/>
+		<item value="Knut Waale &lt;knutwaale@gmail.com&gt;"/>
+	</list>
+	<list key="CommitDialog.committerValues">
+		<item value="Knut Waale &lt;Knut Waale@Knut.mshome.net&gt;"/>
+		<item value="Knut Waale &lt;Knut Waale@192.168.1.46&gt;"/>
+		<item value="Knut Waale &lt;Knut Waale@Knut&gt;"/>
+		<item value="Knut Waale &lt;knutwaale@gmail.com&gt;"/>
+	</list>
+	<list key="EGit.KnownHosts">
+		<item value="bitbucket.org"/>
+		<item value="git.eclipse.org"/>
+		<item value="github.com"/>
+	</list>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://github.com/kwaale/Proyectos-Propios.git"/>
+	</list>
+	<section name="org.eclipse.egit.ui.internal.dialogs.ResetTargetSelectionDialog.dialogBounds">
+		<item key="DIALOG_WIDTH" value="538"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		<item key="DIALOG_HEIGHT" value="728"/>
+		<item key="DIALOG_X_ORIGIN" value="422"/>
+		<item key="DIALOG_Y_ORIGIN" value="8"/>
+	</section>
+	<section name="org.eclipse.egit.ui.COMMIT_DIALOG_SECTION">
+		<item key="DIALOG_WIDTH" value="642"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		<item key="DIALOG_HEIGHT" value="641"/>
+		<item key="DIALOG_X_ORIGIN" value="370"/>
+		<item key="DIALOG_Y_ORIGIN" value="8"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item key="HORIZONTAL_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="STAGING_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="sortItemState" value="false"/>
+	</section>
+	<section name="GitCommitMessageComponent">
+		<list key="C:\Users\Knut Waale\Knut\.git">
+			<item value="empty"/>
+		</list>
+		<list key="C:\Knut UniJava\Leccion 1\WS UniJava\.git">
+			<item value="empty"/>
+		</list>
+		<list key="C:\Users\Knut Waale\.git">
+			<item value="empty"/>
+		</list>
+		<list key="C:\WS UniJava\Knut Propio\.git">
+			<item value="empty"/>
+		</list>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.push.PushResultDialog.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="279"/>
+		<item key="DIALOG_Y_ORIGIN" value="67"/>
+		<item key="DIALOG_WIDTH" value="666"/>
+		<item key="DIALOG_HEIGHT" value="458"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		<list key="sashWeights">
+			<item value="600"/>
+			<item value="400"/>
+		</list>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.pull.PullResultDialog.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="537"/>
+		<item key="DIALOG_Y_ORIGIN" value="245"/>
+	</section>
+</section>

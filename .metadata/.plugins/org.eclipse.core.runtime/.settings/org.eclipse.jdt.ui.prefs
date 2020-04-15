@@ -1,0 +1,28 @@
+LexicalSortingAction.isChecked=true
+MemberFilterActionGroup.org.eclipse.jdt.ui.JavaOutlinePage.4=true
+MemberFilterActionGroup.org.eclipse.jdt.ui.JavaOutlinePage.8=true
+breadcrumb.org.eclipse.jdt.ui.JavaPerspective=true
+content_assist_category_order=org.eclipse.jdt.ui.javaChainProposalCategory\:65546\u0000org.eclipse.jdt.ui.spellingProposalCategory\:65545\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\:65540\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\:65539\u0000org.eclipse.jdt.ui.textProposalCategory\:65541\u0000org.eclipse.jdt.ui.javaAllProposalCategory\:65542\u0000org.eclipse.jdt.ui.templateProposalCategory\:2\u0000org.eclipse.jdt.ui.swtProposalCategory\:3\u0000
+content_assist_disabled_computers=org.eclipse.jdt.ui.textProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000org.eclipse.jdt.ui.javaChainProposalCategory\u0000org.eclipse.mylyn.java.ui.javaAllProposalCategory\u0000
+content_assist_favorite_static_members=org.junit.Assert.*;org.junit.Assume.*;org.junit.jupiter.api.Assertions.*;org.junit.jupiter.api.Assumptions.*;org.junit.jupiter.api.DynamicContainer.*;org.junit.jupiter.api.DynamicTest.*
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.util.Iterator"><rhs name\="java.util.Scanner"/></lhs><lhs name\="java.io.Closeable"><rhs name\="java.util.Scanner"/></lhs><lhs name\="java.lang.AutoCloseable"><rhs name\="java.util.Scanner"/></lhs><lhs name\="frecuenciaCardiaca1.FrecuenciasCardiacas"><rhs name\="frecuenciaCardiaca1.FrecuenciasCardiacas"/></lhs><lhs name\="java.awt.event.ActionListener"><rhs name\="interfacesVisuales.VentSelAcc"/></lhs><lhs name\="java.util.EventListener"><rhs name\="interfacesVisuales.VentSelAcc"/></lhs><lhs name\="javax.swing.JFrame"><rhs name\="interfacesVisuales.VentSelAcc"/></lhs><lhs name\="javax.swing.WindowConstants"><rhs name\="interfacesVisuales.VentSelAcc"/></lhs><lhs name\="javax.accessibility.Accessible"><rhs name\="interfacesVisuales.VentSelAcc"/></lhs><lhs name\="javax.swing.RootPaneContainer"><rhs name\="interfacesVisuales.VentSelAcc"/></lhs><lhs name\="javax.swing.TransferHandler$HasGetTransferHandler"><rhs name\="interfacesVisuales.VentSelAcc"/></lhs><lhs name\="java.awt.Frame"><rhs name\="interfacesVisuales.VentSelAcc"/></lhs><lhs name\="java.awt.MenuContainer"><rhs name\="interfacesVisuales.VentSelAcc"/></lhs><lhs name\="java.awt.Window"><rhs name\="interfacesVisuales.VentSelAcc"/></lhs><lhs name\="java.awt.Container"><rhs name\="interfacesVisuales.VentSelAcc"/></lhs><lhs name\="java.awt.Component"><rhs name\="interfacesVisuales.VentSelAcc"/></lhs><lhs name\="java.awt.image.ImageObserver"><rhs name\="interfacesVisuales.VentSelAcc"/></lhs><lhs name\="interfacesVisuales.VentSelAcc"><rhs name\="interfacesVisuales.VentSelAcc"/></lhs><lhs name\="java.util.Random"><rhs name\="java.security.SecureRandom"/></lhs><lhs name\="java.security.SecureRandom"><rhs name\="java.security.SecureRandom"/></lhs></history>
+content_assist_number_of_computers=17
+eclipse.preferences.version=1
+fontPropagated=true
+java_multi_line_comment=255,255,255
+java_single_line_comment=255,255,255
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.editor.tab.width=
+org.eclipse.jdt.ui.formatterprofiles.version=17
+org.eclipse.jdt.ui.javadoclocations.migrated=true
+org.eclipse.jdt.ui.text.code_templates_migrated=true
+org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.templates_migrated=true
+org.eclipse.jface.textfont=1|Courier New|10.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Courier New;
+proposalOrderMigrated=true
+spelling_locale_initialized=true
+tabWidthPropagated=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

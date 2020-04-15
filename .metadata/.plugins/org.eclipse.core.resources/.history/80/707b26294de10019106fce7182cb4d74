@@ -1,0 +1,14 @@
+package vectores;
+
+public class NotasCursoTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		NotasCurso nota = new NotasCurso();
+		nota.cargaCursoA();
+		nota.cargaCursoB();
+		nota.promedio();
+		nota.promedioMayorMenor();
+	}
+
+}

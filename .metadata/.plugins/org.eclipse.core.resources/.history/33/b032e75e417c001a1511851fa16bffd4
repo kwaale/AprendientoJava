@@ -1,0 +1,8 @@
+'''
+Created on 9 abr. 2020
+  
+@author: Knut Waale
+
+'''
+diccionario = {"China" : 1200, "Japon" : 1300, "Argentina" : 1100}
+print(diccionario)

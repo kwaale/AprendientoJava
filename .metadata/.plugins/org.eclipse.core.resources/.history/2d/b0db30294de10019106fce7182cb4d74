@@ -1,0 +1,51 @@
+package vectores;
+
+import java.util.Scanner;
+
+public class VectorValor {
+	// Desarrollar un programa que permita ingresar un vector de 8 elementos, e
+	// informe:
+	// El valor acumulado de todos los elementos del vector.
+	// El valor acumulado de los elementos del vector que sean mayores a 36.
+	// Cantidad de valores mayores a 50.
+	private Scanner s;
+	private int[] vector;
+	private int sum;
+
+	public void carga() {
+		s = new Scanner(System.in);
+		vector = new int[8];
+		System.out.println("Ingresar valor vector");
+		for (int f = 0; f < 8; f++) {
+			System.out.print("Ingresa un valor: ");
+			vector[f] = s.nextInt();
+		}
+	}
+
+	public void suma() {
+		for (int f = 0; f < 8; f++) {
+			sum = sum + vector[f];
+		}
+	}
+
+	public void sumaSi36() {
+
+		for (int f = 0; f < 8; f++) {
+			if (vector[f] > 36) {
+				sum = sum + vector[f];
+			}
+		}
+		System.out.println("Total valores mayores a 36: " + sum);
+	}
+
+	public void sumaSi50() {
+
+		for (int f = 0; f < 8; f++) {
+			if (vector[f] > 50) {
+				sum = sum + vector[f];
+
+			}
+		}
+		System.out.println("Total valores mayores a 36: " + sum);
+	}
+}

@@ -1,0 +1,63 @@
+package vectores;
+
+import java.util.Scanner;
+
+public class NotasCurso {
+	// Se tienen las notas del primer parcial de los alumnos de dos cursos,
+	// el curso A y el curso B,
+	// cada curso cuenta con 5 alumnos.
+	// Realizar un programa que muestre el curso que obtuvo el mayor promedio
+	// general.
+
+	private Scanner s;
+	private int[] cursoA;
+	private int[] cursoB;
+	private float promedioA;
+	private float promedioB;
+
+	public void cargaCursoA() {
+		s = new Scanner(System.in);
+		cursoA = new int[5];
+		System.out.println("CARGA DE NOTAS CURSO A");
+		for (int i = 0; i < 5; i++) {
+			System.out.print("Cargar la nota: ");
+			cursoA[i] = s.nextInt();
+		}
+
+	}
+
+	public void cargaCursoB() {
+		cursoB = new int[5];
+		System.out.println("CARGA DE NOTAS CURSO B");
+		for (int i = 0; i < 5; i++) {
+			System.out.print("Cargar la nota: ");
+			cursoB[i] = s.nextInt();
+		}
+	}
+
+	public void promedio() {
+
+		int sum = 0;
+		int i = 0;
+		for (i = 0; i < 5; i++) {
+			sum = sum + cursoA[i];
+		}
+		promedioA = sum / i;
+		System.out.println("Promedio curso A es: " + promedioA);
+		for (i = 0; i < 5; i++) {
+			sum = sum + cursoB[i];
+		}
+		promedioB = sum / i;
+		System.out.println("Promedio curso B es: " + promedioB);
+	}
+
+	public void promedioMayorMenor() {
+		if (promedioA < promedioB) {
+			System.out.println("El promedio del curso A es -" + promedioA + "- y el del curso B es -" + promedioB);
+			System.out.println("El promedio mas alto es el del CURSO B");
+		} else {
+			System.out.println("El promedio del curso A es -" + promedioA + "- y el del curso B es -" + promedioB);
+			System.out.println("El promedio mas alto es el del CURSO A");
+		}
+	}
+}

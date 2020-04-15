@@ -1,0 +1,34 @@
+package bucles;
+
+import java.util.Scanner;
+
+public class Prueba {
+
+	public static void main(String[] args) {
+		Scanner s = new Scanner(System.in);
+		System.out.println("Clave");
+		String clave = s.next();
+		String combinacion = "2424";
+		int x = 0;
+
+		if (clave == combinacion) {
+			System.out.println("La clave que introdujo es correcta.");
+		} else {
+			// Repetiion 4 veces.
+			do {
+				System.out.println("La clave que introdujo no es correcta.");
+				clave = s.next();
+				x++;
+				if (clave == combinacion) {
+					
+				} else {
+					System.out.println("La clave que introdujo no es correcta.");
+					System.out.println("Intente de nuevo.");
+				}
+			} while (x < 3);
+			System.out.println("Ha superado los '4' intentos");
+
+		}
+	}
+
+}

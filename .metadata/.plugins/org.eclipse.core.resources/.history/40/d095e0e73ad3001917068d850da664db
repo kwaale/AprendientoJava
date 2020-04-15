@@ -1,0 +1,17 @@
+package objetos;
+
+public class Triangulo {
+
+	public static void main(String[] args) {
+		Persona persona1;
+		persona1 = new Persona();
+		persona1.inicializar();
+		persona1.imprimir();
+		persona1.esMayorDeEdad();
+		
+		
+		
+	} 
+
+
+}

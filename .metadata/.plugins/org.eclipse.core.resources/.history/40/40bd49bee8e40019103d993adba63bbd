@@ -1,0 +1,15 @@
+package objetos;
+
+public class EmpleadoTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Empleado empleado1;
+		empleado1 = new Empleado();
+		empleado1.carga();
+		empleado1.imprimir();
+		empleado1.impuestos();
+		
+	}
+
+}

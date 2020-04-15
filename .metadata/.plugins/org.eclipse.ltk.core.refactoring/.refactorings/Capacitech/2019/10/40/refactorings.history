@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;ernesto.Primero&apos; to &apos;ConsultaTablaAscii&apos;&#x0D;&#x0A;- Original project: &apos;Capacitech&apos;&#x0D;&#x0A;- Original element: &apos;ernesto.Primero&apos;&#x0D;&#x0A;- Renamed element: &apos;ernesto.ConsultaTablaAscii&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Primero&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;ernesto{Primero.java[Primero" matchStrategy="1" name="ConsultaTablaAscii" qualified="false" references="true" similarDeclarations="false" stamp="1570123812376" textual="false" version="1.0"/>
+</session>

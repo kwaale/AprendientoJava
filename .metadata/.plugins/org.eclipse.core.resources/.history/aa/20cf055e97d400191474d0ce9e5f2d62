@@ -1,0 +1,33 @@
+package bucles;
+
+import java.util.Scanner;
+
+public class Suma100Num {
+
+	public static void main(String[] args) {
+		//Realiza un programa que sume los 100 números siguientes a un número
+		//entero y positivo introducido por teclado. Se debe comprobar que el
+		//dato introducido es correcto(que es un número positivo).
+		Scanner s = new Scanner(System.in);
+		System.out.println("Introduzca un numero entero:");
+		int num = s.nextInt();
+		int x = 0;
+		int sum = 0;
+		int v = 0;
+		
+		if(num >= 0){
+			while(x < 5){
+			v = num;
+			v++;
+			sum += v;
+			x++;
+			System.out.println(num + " + " + v + " = " + sum);
+			}
+			
+		}else{
+			System.out.println("El numero debe ser positivo.");
+		}
+		s.close();
+	}
+
+}

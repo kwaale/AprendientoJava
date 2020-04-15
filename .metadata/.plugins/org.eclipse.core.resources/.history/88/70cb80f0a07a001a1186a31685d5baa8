@@ -1,0 +1,15 @@
+'''
+Created on 25 mar. 2020
+
+@author: Knut Waale
+'''
+mi_lista=[3, 7, 8, 10, 2]
+
+
+def multiplicar(lista,a):
+    for i in range(len(lista)):
+        lista[i] *= a
+    return lista    
+
+
+print(multiplicar(mi_lista,2))

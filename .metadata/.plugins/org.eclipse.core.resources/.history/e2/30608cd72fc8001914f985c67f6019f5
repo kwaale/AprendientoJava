@@ -1,0 +1,21 @@
+package bucles;
+
+import java.util.Scanner;
+
+public class Prueba {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner s = new Scanner(System.in);
+		System.out.println("Clave");
+		
+		int x = 0;
+		while (x < 4){
+			int q = s.nextInt();
+			System.out.println(q + "Clave 2");
+			x++;
+			
+		}
+
+	}
+}

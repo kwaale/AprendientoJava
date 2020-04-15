@@ -1,0 +1,38 @@
+package objetos;
+
+import java.util.Scanner;
+
+public class Empleado {
+
+	
+		// Confeccionar una clase que represente un empleado.
+		//Definir como atributos su nombre y su sueldo.
+		//Confeccionar los métodos para la carga
+		//otro para imprimir sus datos
+		//imprima un mensaje si debe pagar impuestos (si el sueldo supera a 3000)
+		private Scanner s;
+		private String nombre;
+		private int sueldo;
+		
+		public void carga(){
+			s = new Scanner(System.in);
+			System.out.print("Introduzca el nombre: ");
+			nombre = s.next();
+			System.out.print("Introduzca el sueldo: ");
+			sueldo = s.nextInt();
+		}
+		public void imprimirDatos(){
+			System.out.println("Nombre: " + nombre);
+			System.out.println("Sueldo: " + sueldo);
+		}
+		public void impuestos(){
+			if(sueldo > 3000){
+				System.out.println(nombre + " debe pagar impuestos.");
+			}else{
+				System.out.println(nombre + " no debe pagar impuestos.");
+			}
+		}
+		
+	
+
+}

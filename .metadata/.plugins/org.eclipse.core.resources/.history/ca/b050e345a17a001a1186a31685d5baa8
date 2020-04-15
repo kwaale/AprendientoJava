@@ -1,0 +1,15 @@
+'''
+Created on 25 mar. 2020
+
+@author: Knut Waale
+'''
+elementos = "Los organismos ediacaricos, tambien conocidos como biota del periodo Ediacarico o, anteriormente, biota o fauna vendiense; son antiguas formas"
+
+#Un string sustituye espacios por comas
+def sustEspaComa (lista):
+    for i in range(len(lista)):
+        if i == " ":
+            i = ', '
+    return lista
+
+print(sustEspaComa(elementos))

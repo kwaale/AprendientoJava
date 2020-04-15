@@ -1,0 +1,18 @@
+package objetos;
+
+public class TestCuadrante {
+
+	public static void main(String[] args) {
+		// Desarrollar una clase que represente un punto en el plano
+		// y tenga los siguientes métodos:
+		// cargar los valores de x e y
+		// imprimir en que cuadrante se encuentra dicho punto
+		// (concepto matemático, primer cuadrante si x e y son positivas,
+		// si x<0 e y>0 segundo cuadrante, etc.)
+		Cuadrante cuadrante1;
+		cuadrante1 = new Cuadrante();
+		
+		
+	}
+
+}

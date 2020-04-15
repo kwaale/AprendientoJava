@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="252"/>
+		<item key="DIALOG_Y_ORIGIN" value="8"/>
+	</section>
+	<section name="org.eclipse.ui.internal.QuickAccess">
+		<item key="dialogHeight" value="-1"/>
+		<item key="dialogWidth" value="-1"/>
+		<list key="textEntries">
+		</list>
+		<list key="orderedElements">
+		</list>
+		<list key="orderedProviders">
+		</list>
+		<list key="textArray">
+		</list>
+	</section>
+	<section name="NewWizardAction">
+	</section>
+	<section name="org.eclipse.ui.internal.dialogs.WorkbenchEditorsDialog">
+		<item key="sort" value="0"/>
+		<item key="allPersp" value="false"/>
+		<list key="columns">
+			<item value="252"/>
+			<item value="504"/>
+		</list>
+		<list key="bounds">
+			<item value="284"/>
+			<item value="0"/>
+			<item value="798"/>
+			<item value="553"/>
+		</list>
+	</section>
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.ExternalProject"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+	<section name="ZipFileImportWizard">
+		<item key="WizardZipFileResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID" value="true"/>
+		<list key="WizardZipFileResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="C:\Users\Knut Waale\Desktop\ATS.zip"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.preferences.keysPreferencePage">
+		<item key="actionSetFilter" value="true"/>
+		<item key="internalFilter" value="true"/>
+		<item key="uncategorizedFilter" value="true"/>
+	</section>
+</section>

@@ -1,0 +1,19 @@
+package primero;
+
+public class Permuta {
+
+	// TODO Auto-generated method stub
+
+	
+	public static void main(String[] args) {
+		int i = 7;
+
+		if (i++ <= 3 && ++i > 4) {
+			i = 8;
+		}
+		System.out.println(i);
+
+
+	}
+
+}

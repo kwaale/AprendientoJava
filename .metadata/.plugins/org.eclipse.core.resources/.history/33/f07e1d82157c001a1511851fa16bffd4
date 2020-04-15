@@ -1,0 +1,20 @@
+'''
+Created on 9 abr. 2020
+  
+@author: Knut Waale
+
+'''
+def cargaListaPalabras():
+    listaPalabras = []
+    for i in range(5):
+        palabra = input("Introduce una palabra " + str(i + 1) + ": ")
+        listaPalabras.append(palabra)
+    return listaPalabras
+
+def palabrasMasDe5caracteres(lista):
+    for i in lista:
+#        len(i)
+        print(str(lista[i]))
+        print(len(lista[i]))
+    
+palabrasMasDe5caracteres(['pera', 'casa', 'perra', 'carro', 'tren'])

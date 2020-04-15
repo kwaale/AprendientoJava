@@ -1,0 +1,16 @@
+package objetos;
+
+public class TrianguloTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Triangulo triangulo1;
+		triangulo1 = new Triangulo();
+		triangulo1.cargaLados();
+		triangulo1.ladoMayor();
+		triangulo1.siEsEquilatero();
+		
+		
+	}
+
+}

@@ -1,0 +1,26 @@
+package objetos;
+
+import javax.swing.JOptionPane;
+
+public class Cuadrado {
+	// Desarrollar una clase que represente un Cuadrado
+	// y tenga los siguientes métodos:
+	// cargar el valor de su lado
+	// imprimir su perímetro y su superficie.
+	private int lado;
+	private int perimetro;
+	private int superficie;
+
+	public void carga() {
+		lado = Integer.parseInt(JOptionPane.showInputDialog("Introduzca un lado"));
+	}
+
+	public void perimetro() {
+		perimetro = lado * 4;
+		JOptionPane.showMessageDialog(null, "El perimetro es " + perimetro);
+	}
+	public void superficie() {
+		superficie = lado * lado;
+		System.out.println("El superficie es " + superficie);
+	}
+}

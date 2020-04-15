@@ -1,0 +1,17 @@
+package objetos;
+
+public class CuadradoTest {
+
+	public static void main(String[] args) {
+		//Desarrollar una clase que represente un Cuadrado
+		//y tenga los siguientes métodos:
+		//cargar el valor de su lado
+		//imprimir su perímetro y su superficie.
+		Cuadrado cuadrado1;
+		cuadrado1 = new Cuadrado();
+		cuadrado1.carga();
+		cuadrado1.perimetro();
+		cuadrado1.superficie();
+	}
+
+}

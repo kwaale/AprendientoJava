@@ -1,0 +1,23 @@
+package bucles;
+
+import java.util.Scanner;
+
+public class Prueba {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner s = new Scanner(System.in);
+		System.out.println("Clave");
+		int q = s.nextInt();
+
+		int x = 0;
+
+		do {
+			System.out.println(q + "Clave 2");
+			q = s.nextInt();
+			x++;
+		} while (x < 3);
+
+	}
+
+}

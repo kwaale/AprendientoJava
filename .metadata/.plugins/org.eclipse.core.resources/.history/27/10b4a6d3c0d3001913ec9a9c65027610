@@ -1,0 +1,39 @@
+package objetos;
+
+import java.util.Scanner;
+
+public class SumRestMult {
+	//Implementar la clase operaciones.
+	//Se deben cargar dos valores enteros,
+	//calcular su suma
+	//resta
+	//multiplicación
+//división, cada una en un método
+	//imprimir dichos resultados.
+	private Scanner s;
+	private int ent1,ent2;
+	private int resul1 = 0;
+	private int resul2 = 0;
+	private int resul3 = 0;
+	
+	public void carga(){
+		s = new Scanner(System.in);
+		System.out.print("Introduzca un valor entero: ");
+		ent1 = s.nextInt();
+		System.out.print("Introduzca un valor entero: ");
+		ent2 = s.nextInt();
+		
+	}
+	public void suma(){
+		resul1 = ent1 + ent2;
+		System.out.println("La suma es igual " + ent1 + " mas " + ent2 + resul1);
+	}
+	public void resta(){
+		resul2 = ent1 - ent2;
+		System.out.println("La resta es igual " + ent1 + " menos " + ent2 + resul2);
+	}
+	public void multiplicacion(){
+		resul3 = ent1 * ent2;
+		System.out.println("La multiplicacion es igual " + ent1 + " por " + ent2 + resul3);
+	}
+}

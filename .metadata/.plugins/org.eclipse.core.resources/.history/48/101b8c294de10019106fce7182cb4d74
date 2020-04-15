@@ -1,0 +1,14 @@
+package vectores;
+
+public class VectorTripleTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		VectorTriple ver = new VectorTriple();
+		ver.cargaVec1();
+		ver.cargaVec2();
+		ver.cargaVec3();
+		ver.imprimirVector3();
+	}
+
+}

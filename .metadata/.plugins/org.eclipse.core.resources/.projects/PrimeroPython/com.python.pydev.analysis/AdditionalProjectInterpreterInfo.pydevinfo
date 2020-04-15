@@ -1,0 +1,64 @@
+-- VERSION_5
+-- START DISKCACHE_2
+C:\WS UniJava\.metadata\.plugins\org.eclipse.core.resources\.projects\PrimeroPython\com.python.pydev.analysis\v2_indexcache
+paqueteN1.CambiarParrafoCaracter|1586534144716652000|C:\Pyton\paqueteN1\CambiarParrafoCaracter.py
+extraccionDatos.Extraccion_Json|1586357535457513000|C:\Pyton\extraccionDatos\Extraccion_Json.py
+tutorialesYa.Prueba2|1586732554534296000|C:\Pyton\tutorialesYa\Prueba2.py
+tutorialesYa.Tuplas|1586615316867882000|C:\Pyton\tutorialesYa\Tuplas.py
+paqueteN1.Condicional_IF|1585229692141782000|C:\Pyton\paqueteN1\Condicional_IF.py
+paqueteN1.Condicionales|1585229692141000000|C:\Pyton\paqueteN1\Condicionales.py
+tutorialesYa.ListasFunciones|1586534464965240000|C:\Pyton\tutorialesYa\ListasFunciones.py
+paqueteN1.BucleFor|1585595733354441000|C:\Pyton\paqueteN1\BucleFor.py
+paqueteN1.Prueba|1586467213312680000|C:\Pyton\paqueteN1\Prueba.py
+extraccionDatos.Obtener|1586362466777066000|C:\Pyton\extraccionDatos\Obtener.py
+paqueteN1.Diccionarios|1585173277880029000|C:\Pyton\paqueteN1\Diccionarios.py
+-- END DISKCACHE
+-- START DICTIONARY
+20
+3=C:\Pyton\tutorialesYa\Tuplas.py
+6=paqueteN1.CambiarParrafoCaracter
+12=extraccionDatos.Extraccion_Json
+15=C:\Pyton\paqueteN1\Diccionarios.py
+4=tutorialesYa.Tuplas
+8=paqueteN1.Condicional_IF
+10=paqueteN1.Condicionales
+14=tutorialesYa.ListasFunciones
+17=C:\Pyton\paqueteN1\BucleFor.py
+2=tutorialesYa.Prueba2
+5=C:\Pyton\paqueteN1\CambiarParrafoCaracter.py
+11=C:\Pyton\extraccionDatos\Extraccion_Json.py
+7=C:\Pyton\paqueteN1\Condicional_IF.py
+13=C:\Pyton\tutorialesYa\ListasFunciones.py
+18=paqueteN1.BucleFor
+20=paqueteN1.Prueba
+1=C:\Pyton\tutorialesYa\Prueba2.py
+19=C:\Pyton\paqueteN1\Prueba.py
+9=C:\Pyton\paqueteN1\Condicionales.py
+16=paqueteN1.Diccionarios
+-- END DICTIONARY
+-- START TREE 1
+20
+age|1|agendaTrabajo!1^43#1*19@
+car|2|cargaEmpleoSueldo!3^10#5*34@cargarDatos!1^9#5*18@
+con|1|consultaFechaAgenda!1^34#5*18@
+dic|1|dic!1^7#1*19@
+ele|1|elementos!5^6#1*51@
+eva|2|evaluacion!7^9#5*66@evaluacion!9^9#5*82@
+imp|1|imprimirAgenda!1^28#5*18@
+jso|2|jsonSTR!11^2#1*99@jsonDecodificado!11^3#1*99@
+may|2|mayor!13^14#5*114@mayor!13^10#1*115@
+men|1|menor!13^22#5*114@
+mid|4|miDiccionario3!15^27#1*131@miDiccionario!15^7#1*131@miDiccionario2!15^20#1*131@miDiccionario4!15^31#1*131@
+mil|1|miLista!13^9#1*115@
+mit|1|miTupla!15^19#1*131@
+not|2|notaAlumno!9^7#1*83@notaAlumno!7^7#1*67@
+ord|2|ordenaListaMay!13^36#5*114@ordenaListaMen!13^47#5*114@
+sue|1|sueldosMayores1500!3^35#5*34@
+sum|2|suma!17^9#1*147@sumaLista!13^29#5*114@
+tit|1|tituloSubrayado!19^6#5*162@
+tot|1|totalEmpleado!3^24#5*34@
+x|1|x!17^8#1*147@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

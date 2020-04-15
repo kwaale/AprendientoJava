@@ -1,0 +1,14 @@
+package objetos;
+
+public class TestSuma {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		SumRestMult operaciones;
+		operaciones.carga();
+		operaciones.suma();
+		operaciones.resta();
+		operaciones.multiplicacion();
+	}
+
+}

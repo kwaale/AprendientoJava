@@ -1,0 +1,40 @@
+package objetos;
+
+import javax.swing.JOptionPane;
+
+public class Empleado {
+	//Confeccionar una clase que represente un empleado.
+	//Definir como atributos su nombre y su sueldo.
+	//Confeccionar los métodos para la carga,
+	//otro para imprimir sus datos
+	//y por último uno que imprima un mensaje si debe pagar impuestos
+	//(si el sueldo supera a 3000)
+	
+	private String nombre;
+	private int sueldo;
+	
+	public void carga(){
+		
+		nombre = JOptionPane.showInputDialog("Inroduzca el nombre");
+		sueldo = Integer.parseInt(JOptionPane.showInputDialog("Introduzca el sueldo"));
+		
+	}
+	public void imprimir(){
+		JOptionPane.showMessageDialog(null, "Nombre: " +  nombre + "Sueldo: " +  sueldo);
+		System.out.println("Nombre: " +  nombre);
+		System.out.println("Sueldo: " +  sueldo);
+	}
+	public void impuestos(){
+		if(sueldo > 3000){
+			System.out.println("Debe pagar impuestos.");
+		}else{
+			System.out.println("No debe pagar impuestos.");
+		}
+	}
+	public static void main(String[] args) {
+		Empleado e = new Empleado();
+		e.carga();
+		e.imprimir();
+		e.impuestos();
+	}
+}
